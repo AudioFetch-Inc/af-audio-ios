@@ -126,13 +126,6 @@ Returns device mac address
  */
 - (void)audioCheckTimeout;
 
-- (void)sendStartReport;
-- (void)sendPingReport;
-- (void)sendAdsReport:(nonnull NSArray *) ads;
-- (void)sendAdClickedReport:(int) adId;
-- (void)deallocReporting;
-
-
 // waio service logging interface
 - (char*) memlog_get;
 - (void) memlog_clear;
